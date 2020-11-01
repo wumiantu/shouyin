@@ -1,0 +1,1035 @@
+ol, ul {
+list-style: none;
+}
+.page-cashier .cashier-desk {
+	width: 100%;
+	background: #f8f8f8;
+	border: 1px solid #e5e5e5;
+	overflow: hidden
+}
+
+.page-cashier .cashier-realtime {
+	margin: 20px auto 0;
+	background: #fff;
+	overflow: hidden
+}
+
+.page-cashier .pay-code-img img {
+	width: 80px;
+	height: 80px
+}
+
+.page-cashier tbody tr {
+	height: 60px
+}
+
+.page-cashier th,.page-cashier td {
+	text-align: center;
+	vertical-align: middle
+}
+
+.page-cashier .list-tools p {
+	line-height: 24px
+}
+
+.page-cashier .form-horizontal {
+	margin: 0;
+	padding: 0
+}
+
+.page-cashier .form-horizontal .controls {
+	margin-left: 0
+}
+
+.page-cashier .realtime-list-box {
+	min-height: 120px
+}
+
+.page-cashier .realtime-list-box .ui-box {
+	background: #fff
+}
+
+.cashier-desk .pay-title {
+	font-size: 14px;
+	font-weight: bold
+}
+
+.cashier-desk .tips {
+	line-height: 20px
+}
+
+.cashier-desk .realtime-pay {
+	float: left;
+	padding: 20px 0 0 30px;
+	position: relative
+}
+
+.cashier-desk .realtime-pay .pay-title {
+	line-height: 50px
+}
+
+.cashier-desk .realtime-pay .pay-config {
+    display: inline-block;
+	float: left
+}
+
+.cashier-desk .realtime-pay .pay-config input {
+	height: 35px
+}
+
+.cashier-desk .realtime-pay .pay-config .config-title input {
+	width: 330px
+}
+
+.cashier-desk .realtime-pay .pay-config .controls {
+	position: relative
+}
+
+.cashier-desk .realtime-pay .pay-config .config-amount input {
+	width: 200px;
+	margin: 0;
+	vertical-align: middle
+}
+
+.cashier-desk .realtime-pay .pay-config .config-amount .btn-primary {
+	/*height: 28px;
+	line-height: 28px;
+	width: 80px;*/
+	margin-left: 20px;
+	vertical-align: middle
+}
+
+.cashier-desk .realtime-pay .pay-config .clear-btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	background-size: 15px
+}
+
+.cashier-desk .realtime-pay .pay-config .clear-value {
+	left: 126px
+}
+
+.cashier-desk .realtime-pay .pay-config .fixed-tips {
+	position: absolute;
+	left: 30px;
+	bottom: 0
+}
+
+.cashier-desk .realtime-pay .pay-code {
+	/*float: right;*/
+	margin-left: 50px;
+	padding: 0 20px;
+	text-align: center;
+	display: inline-block;
+}
+
+.cashier-desk .realtime-pay .pay-code input {
+	margin-top: 0px
+}
+
+.cashier-desk .realtime-pay .pay-code .qr-code-zone {
+	position: relative;
+	width: 215px;
+	height: 215px;
+	line-height: 200px;
+	text-align: center;
+	margin: 10px auto;
+	border: 1px dashed #797979
+}
+
+.cashier-desk .realtime-pay .pay-code .qr-code-zone img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 120px;
+	height: 120px
+}
+
+.cashier-desk .self-pay {
+	width: 230px;
+	margin: 10px 0px 20px 50px;
+	text-align: center;
+	float: left;
+	border-left: 1px solid #e5e5e5
+}
+
+.cashier-desk .self-pay .self-pay-code {
+	width: 210px;
+	height: 210px;
+	margin: 5px auto 10px
+}
+
+.cashier-desk .self-pay .self-pay-code img {
+	width: 210px;
+	height: 210px
+}
+
+.cashier-realtime .realtime-title {
+	float: left;
+	font-size: 14px;
+	font-weight: bold
+}
+
+.cashier-realtime .realtime-title-block {
+	line-height: 40px;
+	border-bottom: 1px solid #e5e5e5
+}
+
+.cashier-realtime .realtime-title-block a {
+	display: inline-block;
+	padding: 0 10px
+}
+
+.cashier-realtime .realtime-title-block .refresh-list {
+	float: right
+}
+select, textarea, input[type="text"], input[type="password"]{
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+select, textarea, input[type="text"], input[type="password"]{
+		display: inline-block;
+		height: 20px;
+		padding: 4px 6px;
+		margin-bottom: 20px;
+		font-size: 14px;
+		line-height: 20px;
+		color: #555555;
+		vertical-align: middle;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+}
+.showSweetAlert input[type="text"]{
+    display: none;
+}
+.float-e-margins .btn {
+    margin-bottom: 0px;
+}
+.ui-box {
+	margin-bottom: 15px
+}
+
+.ui-box.ui-border-box {
+	padding: 14px;
+	border: 1px solid #f3f3f3
+}
+
+.ui-box .ui-box-title {
+	font-size: 16px;
+	color: #333;
+	line-height: 1.5em;
+	border-bottom: 1px solid #e3e3e3;
+	margin: 0 0 15px;
+	padding-bottom: 9px
+}
+
+.ui-box .ui-box-content {
+	zoom: 1
+}
+
+.ui-box .ui-box-content:after {
+	content: "";
+	display: table;
+	clear: both
+}
+.ui-table {
+	width: 100%;
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: 0;
+	border: 1px solid #e5e5e5
+}
+
+.ui-table th {
+	background: #f8f8f8
+}
+
+.ui-table th,.ui-table td {
+	padding: 10px;
+	border-bottom: 1px solid #e5e5e5;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.ui-table th.ui-table-text-right,.ui-table th.text-right,.ui-table th.ui-table-opts,.ui-table td.ui-table-text-right,.ui-table td.text-right,.ui-table td.ui-table-opts {
+	text-align: right;
+	padding-right: 8px;
+	padding-left: 0px
+}
+
+.ui-table th.checkbox,.ui-table td.checkbox {
+	width: 18px;
+	padding: 10px 0 10px 10px
+}
+
+.ui-table th.checkbox label.radio.inline,.ui-table th.checkbox label.checkbox.inline,.ui-table td.checkbox label.radio.inline,.ui-table td.checkbox label.checkbox.inline {
+	padding: 0 4px 0 0
+}
+
+.ui-table th.checkbox label.radio.inline input[type="checkbox"],.ui-table th.checkbox label.checkbox.inline input[type="checkbox"],.ui-table td.checkbox label.radio.inline input[type="checkbox"],.ui-table td.checkbox label.checkbox.inline input[type="checkbox"] {
+	margin-right: 4px
+}
+
+.ui-table th.checkbox input[type="checkbox"],.ui-table td.checkbox input[type="checkbox"] {
+	float: none;
+	margin: 4px 0 0 0;
+	vertical-align: top
+}
+
+.ui-table th.no-left-padding,.ui-table td.no-left-padding {
+	padding-left: 0
+}
+
+.ui-table th.no-right-padding,.ui-table td.no-right-padding {
+	padding-right: 0
+}
+
+.ui-table tbody tr:nth-child(even) {
+	background: #f8f8f8
+}
+
+.ui-table tbody tr:hover {
+	background-color: #e8eff7
+}
+
+.ui-table tbody tr:hover .hover-show {
+	display: inline
+}
+
+.ui-table tbody tr:last-of-type {
+	border-bottom: none
+}
+
+.ui-table tbody tr .hover-show {
+	display: none
+}
+
+.ui-table tbody tr li {
+	line-height: 20px
+}
+
+.ui-table tbody .order-title {
+	border: 1px solid #000;
+	width: 100%;
+	height: 20px
+}
+
+.ui-table .cell-1 {
+	width: 1%
+}
+
+.ui-table .cell-2 {
+	width: 2%
+}
+
+.ui-table .cell-3 {
+	width: 3%
+}
+
+.ui-table .cell-4 {
+	width: 4%
+}
+
+.ui-table .cell-5 {
+	width: 5%
+}
+
+.ui-table .cell-6 {
+	width: 6%
+}
+
+.ui-table .cell-7 {
+	width: 7%
+}
+
+.ui-table .cell-8 {
+	width: 8%
+}
+
+.ui-table .cell-9 {
+	width: 9%
+}
+
+.ui-table .cell-10 {
+	width: 10%
+}
+
+.ui-table .cell-11 {
+	width: 11%
+}
+
+.ui-table .cell-12 {
+	width: 12%
+}
+
+.ui-table .cell-13 {
+	width: 13%
+}
+
+.ui-table .cell-14 {
+	width: 14%
+}
+
+.ui-table .cell-15 {
+	width: 15%
+}
+
+.ui-table .cell-16 {
+	width: 16%
+}
+
+.ui-table .cell-17 {
+	width: 17%
+}
+
+.ui-table .cell-18 {
+	width: 18%
+}
+
+.ui-table .cell-19 {
+	width: 19%
+}
+
+.ui-table .cell-20 {
+	width: 20%
+}
+
+.ui-table .cell-21 {
+	width: 21%
+}
+
+.ui-table .cell-22 {
+	width: 22%
+}
+
+.ui-table .cell-23 {
+	width: 23%
+}
+
+.ui-table .cell-24 {
+	width: 24%
+}
+
+.ui-table .cell-25 {
+	width: 25%
+}
+
+.ui-table .cell-26 {
+	width: 26%
+}
+
+.ui-table .cell-27 {
+	width: 27%
+}
+
+.ui-table .cell-28 {
+	width: 28%
+}
+
+.ui-table .cell-29 {
+	width: 29%
+}
+
+.ui-table .cell-30 {
+	width: 30%
+}
+
+.ui-table .cell-31 {
+	width: 31%
+}
+
+.ui-table .cell-32 {
+	width: 32%
+}
+
+.ui-table .cell-33 {
+	width: 33%
+}
+
+.ui-table .cell-34 {
+	width: 34%
+}
+
+.ui-table .cell-35 {
+	width: 35%
+}
+
+.ui-table .cell-36 {
+	width: 36%
+}
+
+.ui-table .cell-37 {
+	width: 37%
+}
+
+.ui-table .cell-38 {
+	width: 38%
+}
+
+.ui-table .cell-39 {
+	width: 39%
+}
+
+.ui-table .cell-40 {
+	width: 40%
+}
+
+.ui-table .cell-41 {
+	width: 41%
+}
+
+.ui-table .cell-42 {
+	width: 42%
+}
+
+.ui-table .cell-43 {
+	width: 43%
+}
+
+.ui-table .cell-44 {
+	width: 44%
+}
+
+.ui-table .cell-45 {
+	width: 45%
+}
+
+.ui-table .cell-46 {
+	width: 46%
+}
+
+.ui-table .cell-47 {
+	width: 47%
+}
+
+.ui-table .cell-48 {
+	width: 48%
+}
+
+.ui-table .cell-49 {
+	width: 49%
+}
+
+.ui-table .cell-50 {
+	width: 50%
+}
+
+.ui-table .cell-51 {
+	width: 51%
+}
+
+.ui-table .cell-52 {
+	width: 52%
+}
+
+.ui-table .cell-53 {
+	width: 53%
+}
+
+.ui-table .cell-54 {
+	width: 54%
+}
+
+.ui-table .cell-55 {
+	width: 55%
+}
+
+.ui-table .cell-56 {
+	width: 56%
+}
+
+.ui-table .cell-57 {
+	width: 57%
+}
+
+.ui-table .cell-58 {
+	width: 58%
+}
+
+.ui-table .cell-59 {
+	width: 59%
+}
+
+.ui-table .cell-60 {
+	width: 60%
+}
+
+.ui-table .cell-61 {
+	width: 61%
+}
+
+.ui-table .cell-62 {
+	width: 62%
+}
+
+.ui-table .cell-63 {
+	width: 63%
+}
+
+.ui-table .cell-64 {
+	width: 64%
+}
+
+.ui-table .cell-65 {
+	width: 65%
+}
+
+.ui-table .cell-66 {
+	width: 66%
+}
+
+.ui-table .cell-67 {
+	width: 67%
+}
+
+.ui-table .cell-68 {
+	width: 68%
+}
+
+.ui-table .cell-69 {
+	width: 69%
+}
+
+.ui-table .cell-70 {
+	width: 70%
+}
+
+.ui-table .cell-71 {
+	width: 71%
+}
+
+.ui-table .cell-72 {
+	width: 72%
+}
+
+.ui-table .cell-73 {
+	width: 73%
+}
+
+.ui-table .cell-74 {
+	width: 74%
+}
+
+.ui-table .cell-75 {
+	width: 75%
+}
+
+.ui-table .cell-76 {
+	width: 76%
+}
+
+.ui-table .cell-77 {
+	width: 77%
+}
+
+.ui-table .cell-78 {
+	width: 78%
+}
+
+.ui-table .cell-79 {
+	width: 79%
+}
+
+.ui-table .cell-80 {
+	width: 80%
+}
+
+.ui-table .cell-81 {
+	width: 81%
+}
+
+.ui-table .cell-82 {
+	width: 82%
+}
+
+.ui-table .cell-83 {
+	width: 83%
+}
+
+.ui-table .cell-84 {
+	width: 84%
+}
+
+.ui-table .cell-85 {
+	width: 85%
+}
+
+.ui-table .cell-86 {
+	width: 86%
+}
+
+.ui-table .cell-87 {
+	width: 87%
+}
+
+.ui-table .cell-88 {
+	width: 88%
+}
+
+.ui-table .cell-89 {
+	width: 89%
+}
+
+.ui-table .cell-90 {
+	width: 90%
+}
+
+.ui-table .cell-91 {
+	width: 91%
+}
+
+.ui-table .cell-92 {
+	width: 92%
+}
+
+.ui-table .cell-93 {
+	width: 93%
+}
+
+.ui-table .cell-94 {
+	width: 94%
+}
+
+.ui-table .cell-95 {
+	width: 95%
+}
+
+.ui-table .cell-96 {
+	width: 96%
+}
+
+.ui-table .cell-97 {
+	width: 97%
+}
+
+.ui-table .cell-98 {
+	width: 98%
+}
+
+.ui-table .cell-99 {
+	width: 99%
+}
+
+.ui-table .cell-100 {
+	width: 100%
+}
+
+.ui-table .orderby-arrow {
+	font-family: 'sumsim'
+}
+
+.ui-table .orderby-arrow.desc:before {
+	position: absolute;
+	content: '\2193'
+}
+
+.ui-table .orderby-arrow.asc:before {
+	position: absolute;
+	content: '\2191'
+}
+
+.ui-table .input-mini {
+	width: 48px;
+	font-size: 12px;
+	height: 16px;
+	vertical-align: baseline;
+	margin-bottom: 0
+}
+
+.ui-table.ui-table-list {
+	border: none
+}
+
+.ui-table.ui-table-list tbody tr:nth-child(even) {
+	background: none
+}
+
+.ui-table.ui-table-list tbody tr:hover {
+	background-color: #f8f8f8
+}
+
+.ui-table.ui-table-list tbody tr:last-child td {
+	border-width: 2px
+}
+
+.ui-table.ui-table-simple tbody tr:nth-child(even) {
+	background: none
+}
+
+.ui-table.ui-table-simple tbody tr:hover {
+	background: none
+}
+
+.ui-table-order {
+	width: 100%;
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: 0
+}
+
+.ui-table-order tr {
+	border: 1px solid #f2f2f2
+}
+
+.ui-table-order th {
+	background: #f8f8f8
+}
+
+.ui-table-order th,.ui-table-order td {
+	padding: 10px;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.ui-table-order th.text-right,.ui-table-order td.text-right {
+	text-align: right;
+	padding-left: 0
+}
+
+.ui-table-order th.text-center,.ui-table-order td.text-center {
+	text-align: center
+}
+
+.ui-table-order p {
+	margin: 0 0 10px
+}
+
+.ui-table-order .orderby-arrow {
+	font-family: 'sumsim'
+}
+
+.ui-table-order .orderby-arrow.desc:before {
+	position: absolute;
+	content: '\2193'
+}
+
+.ui-table-order .orderby-arrow.asc:before {
+	position: absolute;
+	content: '\2191'
+}
+
+.ui-table-order .separation-row {
+	border: none;
+	height: 10px
+}
+
+.ui-table-order .separation-row td {
+	padding: 0
+}
+
+.ui-table-order .header-row {
+	background: #fafafa;
+	height: 30px
+}
+
+.ui-table-order .header-row td {
+	padding: 5px 10px
+}
+
+.ui-table-order .header-row .stared {
+	color: #ff6600 !important
+}
+
+.ui-table-order .content-row .image-cell {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	padding-right: 0
+}
+
+.ui-table-order .content-row .image-cell img {
+	width: 60px;
+	height: 60px;
+	max-width: 60px;
+	max-height: 60px
+}
+
+.ui-table-order .content-row .aftermarket-cell,.ui-table-order .content-row .customer-cell,.ui-table-order .content-row .time-cell,.ui-table-order .content-row .state-cell,.ui-table-order .content-row .pay-price-cell {
+	border-left: 1px solid #f2f2f2
+}
+
+.ui-table-order .remark-row {
+	height: 25px;
+	line-height: 25px;
+	background: #fffaeb;
+	color: #f90
+}
+
+.ui-table-order .remark-row.buyer-msg {
+	background: #FDEEEE;
+	color: #ED5050
+}
+
+.ui-table-order .remark-row td {
+	padding: 0 10px;
+	word-break: break-all
+}
+
+.ui-table-order .title-cell .goods-title {
+	max-height: 40px;
+	overflow: hidden;
+	line-height: 20px
+}
+
+.ui-table-order .title-cell .goods-sku {
+	color: #666
+}
+
+.ui-table-order .price-cell {
+	width: 130px
+}
+
+.ui-table-order .aftermarket-cell {
+	width: 100px
+}
+
+.ui-table-order .customer-cell {
+	width: 85px
+}
+
+.ui-table-order .time-cell {
+	width: 80px
+}
+
+.ui-table-order .state-cell {
+	width: 100px
+}
+
+.ui-table-order .pay-price-cell {
+	width: 120px
+}
+
+.ui-table-order .price-cell,.ui-table-order .number-cell {
+	text-align: right
+}
+
+.ui-table-order .time-cell {
+	padding: 10px 0px
+}
+
+.ui-table-order .aftermarket-cell,.ui-table-order .customer-cell,.ui-table-order .time-cell,.ui-table-order .state-cell,.ui-table-order .pay-price-cell {
+	text-align: center
+}
+
+.page-trade-order-detail .step-region,.page-trade-order-detail .content-region{
+    position: relative;
+	border: 1px solid #e5e5e5;
+	margin-bottom: 15px;
+
+}
+.page-trade-order-detail .ui-step {
+	padding: 14px 0 8px 0;
+	zoom: 1;
+}
+
+.page-trade-order-detail .ui-step-4 li {
+width: 24.9999%;
+}
+.page-trade-order-detail .ui-step li {
+float: left;
+position: relative;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+text-align: center;
+}
+.ui-step li.ui-step-done::before, .ui-step li.ui-step-done::after, .ui-step li.ui-step-done .ui-step-number {
+	background: #80CCFF;
+}
+.ui-step li:first-child::before {
+width: 0;
+}
+.ui-step li::before, .ui-step li::after {
+position: absolute;
+left: 0;
+top: 36px;
+display: block;
+content: ' ';
+width: 50%;
+height: 4px;
+background: #999;
+z-index: 1;
+}
+.ui-step li::after {
+  left: 50%;
+}
+.ui-step .ui-step-number {
+position: relative;
+display: inline-block;
+width: 20px;
+height: 20px;
+margin: 10px 0;
+line-height: 22px;
+background: #999;
+color: #fff;
+border-radius: 100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+z-index: 2;
+}
+.ui-step li.ui-step-done .ui-step-number {
+color: transparent;
+}
+.ui-step li.ui-step-done .ui-step-number::after {
+position: absolute;
+left: 0;
+width: 17px;
+height: 20px;
+line-height: 25px;
+content: '√';
+color: #fff;
+}
+.ui-step:after {
+content: "";
+display: table;
+clear: both;
+}
+.ui-step li:last-child::after {
+width: 0;
+}
+.ui-step .ui-step-title {
+color: #999;
+font-size: 12px;
+font-weight: bold;
+color: #80CCFF;
+}
+
+.page-trade-order-detail .info-region {
+padding: 15px 15px 35px 15px;
+/*border-right: 1px solid #e5e5e5;*/
+width: 60%;
+float: left;
+}
+.page-trade-order-detail .info-table th, .page-trade-order-detail .info-table td {
+color: #999;
+padding: 0 0 10px 0;
+vertical-align: top;
+}
+.page-trade-order-detail .info-table th {
+text-align: right;
+color: #999;
+}
+.page-trade-order-detail .state-region {
+width: 40%;
+padding: 15px 15px 35px 15px;
+height: 140px;
+margin-left: -1px;
+border-left: 1px solid #e5e5e5;
+float: right;
+}

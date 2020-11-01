@@ -1,0 +1,26 @@
+.appfooter{width: 100%;background: #272727;position: fixed;bottom: 0;left: 0;right: 0;z-index: 1200;font-family: 'Microsoft Yahei',"微软雅黑",arial,"宋体",sans-serif;}
+.appfooter ul{margin: 0;padding: 0;}
+.appfooter li{width: 25%;float: left;list-style: none;text-align: center;padding: 10px 0}
+.appfooter li a{color: #fff}
+.appfooter li a i{font-size: 25px;display: block;color: #fff;}
+.appfooter li:hover,.appfooter li.on{background: #464646}
+.iconList{background: #f3f3f4;font-family: 'Microsoft Yahei',"微软雅黑",arial,"宋体",sans-serif;}
+.iconList ul{margin: 0;padding: 0}
+.iconList ul li{text-align: center;list-style: none;margin-top: 20px;}
+.iconList ul li a{color: #626262}
+.iconList ul li a:hover{color:#44b549}
+.iconList ul li a i{font-size: 25px;display:block;color: #fff;width: 50px;height: 50px;margin: 0 auto;line-height: 50px;border-radius: 100%;margin-bottom: 8px;}
+.iconList ul li:nth-child(1) a i{background: #fdb044}
+.iconList ul li:nth-child(2) a i{background: #fb6a59}
+.iconList ul li:nth-child(3) a i{background: #ca5ca1}
+.iconList ul li:nth-child(4) a i{background: #55b8d5}
+.iconList ul li:nth-child(5) a i{background: #96cc6c}
+.iconList ul li:nth-child(6) a i{background: #8f8f8f}
+.iconList ul li:nth-child(7) a i{background: #5F7DF2}
+@media (min-width: 768px){.appfooter{display: none}
+    .iconList ul li{margin-top: 40px;}}
+@media (max-width: 768px){.navbar-fixed-top, .navbar-static-top{background: #1cb295;}
+    .nav.navbar-right > li > a{color: #fff;}
+    .label-primary, .badge-primary{background-color: #f8ac59;}
+    
+}

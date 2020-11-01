@@ -1,0 +1,1 @@
+<?php bpBase::loadSysClass('model', '', 0);class wxcoupon_common_model extends model {public function __construct() {$this->table_name = 'wxcoupon_common';parent::__construct();}} ?>

@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/**********************************************************
+BY.com.tanytree
+************************************************************/
+#header{padding: 13px 0;height: 44px;padding-left: 30px;background-color: rgba(255,255,255,.6);*background-color:#fff;background:#fff\9;box-shadow: 1px 1px 3px rgba(0,0,0,.1);position: fixed;width: 100%;min-width: 1210px;filter: alpha(opacity=70);z-index: 1001}
+#menu{height: 100%;line-height: 70px;vertical-align: middle;font-size: 16px;padding-right: 31px;position: absolute;right: 10px;top: 0}
+#content{width: 960px;margin: 0 auto;position: relative}
+#menu span{padding-left: 40px}
+#menu span a{text-decoration: none;color: #333;font-size: 14px}
+#menu span a:hover,#menu span.on a{font-size: 14px;color: #000;text-decoration: none}
+#menu span.on a{font-weight: 700}
+.section-1{}
+.section-1 .textDesc{text-align: center;position: absolute;width: 100%;left: 0;bottom: 74%;}
+.section-1 .w1210{position: relative}
+.section-1 .w1210 .imgDesc{position: absolute;bottom: 0;left: 0;width: 100%;text-align: center}
+.section-1 .w1210 .imgDesc .section0-0{width: 58%;}
+.section-1 .w1210 .imgDesc .section0-1{position: absolute;left: 438px;top: 125px;}
+.section-1 .w1210 .imgDesc .section0-2{position: absolute;left: 558px;top: 290px;}
+.textDesc h2{font-size: 36px;color: #5b5b5b;padding-bottom: 15px}
+.textDesc p{line-height: 24px}
+.section-2 .w1210{position: relative}
+.section-2 .w1210 .textDesc{float: right;padding-top: 200px;margin-right: 165px;width: 465px}
+.section1-0{margin-top: 178px;margin-left: 160px;}
+.section1-1{position: absolute;left: 368px;top: 75px;}
+.section1-2{position: absolute;left: 183px;top: 106px;}
+.section1-3{left: 275px;top: 410px;position: absolute;z-index: 9;}
+.mountain{position: absolute;bottom: 0}
+.section1-mountain-0{left: 20px;width: 14%}
+.section1-mountain-1{left: 133px;width: 20%;}
+.section1-mountain-2{left: 365px;width: 18%;}
+.section1-mountain-3{right: 0;width: 14%;z-index: 5;}
+.section1-mountain-4{right: 106px;width: 30%;z-index: 0}
+.section1-mountain-5{right: 390px;width: 14%;z-index: 5}
+.section-3{text-align: center;}
+.section-3 .w1210,.section-4 .w1210,.section-5 .w1210,.section-6 .w1210,.section-7 .w1210,.section-8 .w1210{height: auto;text-align: center;}
+.section-3 .w1210 .imgDesc{height: 400px}
+.section-3 .w1210 .section2-0{width: 720px;}
+.section-4{text-align: center}
+.section-4 .textDesc,.section-5 .textDesc,.section-6 .textDesc,.section-7 .textDesc,.section-8 .textDesc{width: 400px;padding-top: 178px;display: inline-block;text-align: left}
+.section-4 .textDesc,.section-5 .textDesc,.section-6 .textDesc,.section-7 .textDesc,.section-8 .textDesc{*display: inline}
+.section-4 .imgDesc,.section-5 .imgDesc,.section-6 .imgDesc,.section-7 .imgDesc,.section-8 .imgDesc{height: 438px;width: 420px;position: relative;display: inline-block;text-align: left;margin-top: 25px;}
+.section-4 .imgDesc,.section-5 .imgDesc,.section-6 .imgDesc,.section-7 .imgDesc,.section-8 .imgDesc{*display: inline}
+.section-4 .imgDesc .section3-0{margin-top: 57px;}
+.section-4 .imgDesc .section3-1{position: absolute;top: 15px;left: 47px;width: 77%;}
+.section-5 .imgDesc,.section-6 .imgDesc,.section-7 .imgDesc{margin-top: 0;width: auto}
+.section-5 .imgDesc{height: 497px;width: 665px;position: relative}
+.section-5 .imgDesc img{position: absolute}
+.section-5 .imgDesc .section4-0{top: 15px;left: 65px;}
+.section-5 .imgDesc .section4-1{left: 194px;top: 70px;z-index: -1;}
+.section-5 .imgDesc .section4-2{top: 164px;right: 187px;}
+.section-5 .imgDesc .section4-3{top: 174px;left: 20px}
+.section-5 .imgDesc .section4-4{right: 55px;bottom: 98px;}
+.section-5 .imgDesc .section4-5{top: 200px;left: 0;}
+.section-5 .imgDesc .section4-6{right: 200px;bottom: -10px;}
+.section-6 .imgDesc{height: 530px}
+.section-6 .imgDesc{width: 420px;position: relative}
+.section-6 .imgDesc img{position: absolute}
+.section-6 .imgDesc .section5-0{width: 92%;}
+.section-6 .imgDesc .section5-1{left: 218px;top: 225px;width: 14%;z-index: 9;}
+.section-6 .imgDesc .section5-2{left: 35px;top: 215px;top: 190px;}
+.section-6 .imgDesc .section5-3{top: 184px;left: 170px;width: 14%;}
+.section-6 .imgDesc .section5-4{top: 288px;left: -53px;width: 47%;}
+.section-6 .imgDesc .section5-5{}
+.section-7 .textDesc{width: 600px}
+.section-7 .imgDesc{width: 501px;height: 450px;position: relative}
+.section-7 .imgDesc .round{width: 400px;height: 401px;background: url("../img/section6-0.png")/*tpa=http://www.pigcms.com/cashier/img/section6-0.png*/ no-repeat top center;position: absolute;top: 20px;left: 20px;z-index: 99;}
+.section-7 .imgDesc .round img{position: absolute}
+.section-7 .imgDesc .section6-yun1{top: -30px;left: 160px}
+.section-7 .imgDesc .section6-yun2{top: 200px;left: -40px}
+.section-7 .imgDesc .section6-2{top: 45px;left: 5px;}
+.section-7 .imgDesc .section6-3{bottom: 1px;left: 270px;}
+.section-7 .imgDesc .section6-4{bottom: 2px;left: 57px;}
+.section-7 .imgDesc .section6-5{position: absolute;top: 136px;left: 94px;}
+.section-7 .imgDesc .section6-6{position: absolute;top: 198px;left: 120px;}
+.section-7 .imgDesc .section6-7{left: 130px;top: 175px;position: absolute;}
+.section-7 .imgDesc .section6-8{position: absolute;bottom: 65px;right: 4px;z-index: 9;}
+.section-7 .imgDesc .section6-9{position: absolute;right: 9px;top: 110px;}
+.section-7 .imgDesc .section6-10{position: absolute;top: 103px;right: 132px;}
+
+.section-8 .imgDesc{position:relative }
+.section-8 .imgDesc img{position:absolute}
+.section-8 .imgDesc .section8-0{top: -62px;  right: 0;  z-index: 9;}
+.section-8 .imgDesc .section8-1{    right: 20px;  top: 35px;}
+.section-8 .imgDesc .section8-2{    top: 197px;  right: 42px;  z-index: 10;}
+.section-8 .imgDesc .section8-3{    left: -148px;  top: 99px;}
+    /*动画*/
+.animate .textDesc h2{-webkit-animation:dn50 2s 0.5s ease both;-moz-animation:dn50 2s 0.5s ease both;animation:dn50 2s 0.5s ease both;}
+.animate .textDesc p{-webkit-animation:dn50 2s 1s ease both;-moz-animation:dn50 2s 1s ease both;animation:dn50 2s 1s ease both;}
+.animate.section-1 .w1210 .imgDesc .section0-0{-webkit-animation:bounceInUp 3s .3s ease both;-moz-animation:bounceInUp 3s .3s ease both;animation:bounceInUp 3s .3s ease both;}
+.animate.section-1 .w1210 .imgDesc .section0-1{-webkit-animation:dn50 2s 3.1s ease both;-moz-animation:dn50 2s 3.1s ease both;animation:dn50 2s 3.1s ease both;}
+.animate.section-1 .w1210 .imgDesc .section0-2{-webkit-animation:up70 2s 3.8s ease both;-moz-animation:up70 2s 3.8s ease both;animation:up70 2s 3.8s ease both;}
+.animate .section1-0{-webkit-animation:bounceInUp 3s 0s ease both;-moz-animation:bounceInUp 3s 0s ease both;animation:bounceInUp 3s 0s ease both;}
+.animate .section1-1{-webkit-animation:flicker 2s 0.1s ease both infinite;-moz-animation:flicker 2s 0.1s ease both infinite;animation:flicker 2s 0.1s ease both infinite;}
+.animate .section1-2{-webkit-animation:flicker 2s 0.8s ease both infinite;-moz-animation:flicker 2s 0.8s ease both infinite;animation:flicker 2s 0.8s ease both infinite;}
+.animate .section1-3{-webkit-animation:bounceInRight 3s 2s ease both;-moz-animation:bounceInRight 3s 2s ease both;animation:bounceInRight 3s 2s ease both;}
+.animate .section1-mountain-0{-webkit-animation:zoomInDown 3s 2s ease both;-moz-animation:zoomInDown 3s 2s ease both;animation:zoomInDown 3s 2s ease both;}
+.animate .section1-mountain-1{-webkit-animation:zoomInDown 4s 2.1s ease both;-moz-animation:zoomInDown 4s 2.1s ease both;animation:zoomInDown 4s 2.1s ease both;}
+.animate .section1-mountain-2{-webkit-animation:zoomInDown 5s 2.2s ease both;-moz-animation:zoomInDown 5s 2.2s ease both;animation:zoomInDown 5s 2.2s ease both;}
+.animate .section1-mountain-3{-webkit-animation:zoomInDown 5s 2.3s ease both;-moz-animation:zoomInDown 5s 2.3s ease both;animation:zoomInDown 5s 2.3s ease both;}
+.animate .section1-mountain-4{-webkit-animation:zoomInDown 6s 2.4s ease both;-moz-animation:zoomInDown 6s 2.4s ease both;animation:zoomInDown 6s 2.4s ease both;}
+.animate .section1-mountain-5{-webkit-animation:zoomInDown 6s 2.5s ease both;-moz-animation:zoomInDown 6s 2.5s ease both;animation:zoomInDown 6s 2.5s ease both;}
+.animate .section2-0{-webkit-animation:zoomInRight 3s 0.5s ease both;-moz-animation:zoomInRight 3s 0.5s ease both;animation:zoomInRight 3s 0.5s ease both;}
+.animate .section3-0{-webkit-animation:zoomInLeft 3s 0.5s ease both;-moz-animation:zoomInLeft 3s 0.5s ease both;animation:zoomInLeft 3s 0.5s ease both;}
+.animate .section3-1{-webkit-animation:rollIn 3s 3.1s ease both;-moz-animation:rollIn 3s 3.1s ease both;animation:rollIn 3s 3.1s ease both;}
+.animate .section4-0{-webkit-animation:slideInLeft 3s .3s ease both;-moz-animation:slideInLeft 3s .3s ease both;animation:slideInLeft 3s .3s ease both;}
+.animate .section4-1{-webkit-animation:slideInRight 3s .3s ease both;-moz-animation:slideInRight 3s .3s ease both;animation:slideInRight 3s .3s ease both;}
+.animate .section4-2{-webkit-animation:fadeInLeft 3s 3s ease both;-moz-animation:fadeInLeft 3s 3s ease both;animation:fadeInLeft 3s 3s ease both;}
+.animate .section4-3{-webkit-animation:up70 1s 3.2s ease both;-moz-animation:up70 1s 3.2s ease both;animation:up70 1s 3.2s ease both;}
+.animate .section4-4{-webkit-animation:zoomInUp 1s 4.2s ease both;-moz-animation:zoomInUp 1s 4.2s ease both;animation:zoomInUp 1s 4.2s ease both;}
+.animate .section4-5{-webkit-animation:zoomInUp 1s 4.3s ease both;-moz-animation:zoomInUp 1s 4.3s ease both;animation:zoomInUp 1s 4.3s ease both;}
+.animate .section4-6{-webkit-animation:zoomInUp 1s 4.4s ease both;-moz-animation:zoomInUp 1s 4.4s ease both;animation:zoomInUp 1s 4.4s ease both;}
+.animate .section5-0{-webkit-animation:up70 2s 0s ease both;-moz-animation:up70 2s 0s ease both;animation:up70 2s 0s ease both;}
+.animate .section5-1{-webkit-animation:dn50 2s 0.5s ease both;-moz-animation:dn50 2s 0.5s ease both;animation:dn50 2s 0.5s ease both;}
+.animate .section5-2{-webkit-animation:dn50 2s 0.8s ease both;-moz-animation:dn50 2s 0.8s ease both;animation:dn50 2s 0.8s ease both;}
+.animate .section5-3{-webkit-animation:dn50 2s 1s ease both;-moz-animation:dn50 2s 1s ease both;animation:dn50 2s 1s ease both;}
+.animate .section5-4{-webkit-animation:slideInLeft 2s 1s ease both;-moz-animation:slideInLeft 2s 1s ease both;animation:slideInLeft 2s 1s ease both;}
+.animate .round{animation:rotate 9.5s linear 0s normal none infinite;-ms-animation:rotate 9.5s linear 0s normal none infinite;-moz-animation:rotate 9.5s linear 0s normal none infinite;-webkit-animation:rotate 9.5s linear 0s normal none infinite;}
+.animate .section6-2,.animate .section6-3,.animate .section6-4,.animate .section6-yun1,.animate .section6-yun2{animation:rotateL 9.5s linear 0s normal none infinite;-ms-animation:rotateL 9.5s linear 0s normal none infinite;-moz-animation:rotateL 9.5s linear 0s normal none infinite;-webkit-animation:rotateL 9.5s linear 0s normal none infinite;}
+.animate .section6-5{-webkit-animation:zoomIn 2s 0.1s ease both ;-moz-animation:zoomIn 2s 0.1s ease both ;animation:zoomIn 2s 0.1s ease both;}
+.animate .section6-6{-webkit-animation:up70 2s 2.3s ease both ;-moz-animation:up70 2s 2.3s ease both ;animation:up70 2s 2.3s ease both;}
+.animate .section6-7{-webkit-animation:dn30 2s 2.1s ease both ;-moz-animation:dn30 2s 2.1s ease both ;animation:dn30 2s 2.1s ease both;}
+.animate .section6-8{-webkit-animation:slideInUp 2s 1.5s ease both ;-moz-animation:slideInUp 2s 1.5s ease both ;animation:slideInUp 2s 1.5s ease both;}
+.animate .section6-9{-webkit-animation:slideInRight 2s 1s ease both ;-moz-animation:slideInRight 2s 1s ease both ;animation:slideInRight 2s 1s ease both;}
+.animate .section6-10{-webkit-animation:fadeInRight 2s 2s ease both;-moz-animation:fadeInRight 2s 2s ease both;animation:fadeInRight 2s 2s ease both;}
+
+.animate .section8-0{-webkit-animation:dn50 2s 2.5s ease both;-moz-animation:dn50 2s 2.5s ease both;animation:dn50 2s 2.5s ease both;}
+.animate .section8-1{-webkit-animation:lt300 2s 0s ease both;-moz-animation:lt300 2s 0s ease both;animation:lt300 2s 0s ease both;}
+.animate .section8-2{-webkit-animation:up90 2s 2.8s ease both;-moz-animation:up90 2s 2.8s ease both;animation:up90 2s 2.8s ease both;}
+.animate .section8-3{-webkit-animation:rt300 3s 1s ease both;-moz-animation:rt300 3s 1s ease both;animation:rt300 3s 1s ease both;}
+
+
+
+
+
